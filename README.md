@@ -1,18 +1,29 @@
-Biblioteca Django API
+# Biblioteca Django v2
 
-Herenildo da Cruz dos Santos
+Sistema de gerenciamento de biblioteca, desenvolvido com Django e Django Rest Framework, que permite a administração de livros, autores e categorias, com funcionalidades de paginação, ordenação e busca. Este projeto utiliza Class-Based Views (CBV) e faz uso da biblioteca `django-filter` para implementar filtros avançados.
 
-Este projeto é um sistema de gerenciamento de biblioteca desenvolvido em Django, com uma API REST para gerenciamento de livros, categorias e autores. Ele inclui funcionalidades como paginação, ordenação e filtros utilizando o Django REST Framework e o Django Filter.
+## Autor
+**Herenildo da Cruz dos Santos**
 
-Funcionalidades
-Gerenciamento de livros, categorias e autores.
-API RESTful para operações CRUD (Create, Read, Update, Delete).
-Paginação e ordenação de registros.
-Filtros de pesquisa avançados com django-filters.
-Suporte para JSON como formato de resposta padrão.
-Aplicação totalmente desenvolvida usando Django e Django REST Framework.
-Requisitos
-Python 3.12+
-Django 5.1+
-Django REST Framework
-django-filter
+## Funcionalidades
+
+- **Listar livros** com paginação e ordenação por título, autor, categoria, e data de publicação.
+- **Filtrar livros** por título, autor e categoria.
+- **Criar, atualizar e deletar** registros de livros.
+- **Gerenciamento de autores e categorias**.
+
+## Tecnologias Utilizadas
+
+- **Django** 5.1
+- **Django Rest Framework**
+- **Django Filter**
+
+## Instalação
+
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/Herenildo/Biblioteca_Django_v2.git
+   cd Biblioteca_Django_v2
+
+
